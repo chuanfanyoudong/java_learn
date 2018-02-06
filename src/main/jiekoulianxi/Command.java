@@ -6,7 +6,7 @@
 
 package main.jiekoulianxi;
 
-interface Command {
+public interface Command {
     public abstract void process(int[] target);
 }
 
